@@ -1,9 +1,71 @@
+#header {
+    display: flex;
+    justify-content: flex-start;
+    width: 100%;
+    padding: 1rem;
+    background-color: rgb(48, 29, 1);
+    position: fixed;
+}
+
+#logo-heading {
+    align-self: center;
+}
+
+#nav-wrapper {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    padding: 1rem;
+    justify-content: flex-end;
+    flex-basis: auto;
+}
+
+#nav-list {
+    display: flex;
+    justify-content: space-between;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#nav-list li {
+    margin: 1rem;
+}
+
+.nav-link {
+    border-radius: 10px;
+    font-size: 24px;
+    font-family: 'Raleway Dots', cursive;
+    padding: 1rem;
+}
+
+#new-arrivals-link:hover {
+    background-color: aquamarine;
+    color: black;
+    font-weight: bold;
+    transition: 0.5s ease-in-out;
+}
+
+#all-flavors-link:hover {
+    background-color: rgb(176, 255, 176);
+    color: black;
+    font-weight: bold;
+    transition: 0.5s ease-in-out;
+}
+
+#dairy-free-link:hover {
+    background-color: rgb(235, 174, 250);
+    color: black;
+    font-weight: bold;
+    transition: 0.5s ease-in-out;
+}
+
 h1 {
     font-family: 'Raleway Dots', cursive;
+    font-size: 48px;
+    color: white;
 }
 
 nav {
     position: fixed;
 }
 
-/* Use flexbox and media queries at least once */
