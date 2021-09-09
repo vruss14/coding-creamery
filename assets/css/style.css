@@ -16,6 +16,10 @@ body::before {
     z-index: -1;
 }
 
+body {
+    cursor: url("../images/ice-cream-scoop-pngrepo-com.png"), default;
+}
+
 #header {
     display: flex;
     justify-content: flex-start;
@@ -241,15 +245,56 @@ input {
     font-size: 18px;
 }
 
+#description {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 1rem auto;
+    width: 85%;
+}
+
+#description-title {
+    text-align: center;
+    margin: 2rem auto;
+    font-family: Helvetica, sans-serif;
+    font-size: 28px;
+    font-weight: 300;
+}
+
+.advantage {
+    display: flex;
+    flex-direction: row;
+    margin: 1rem auto;
+    width: 80%;
+}
+
+.advantage-content {
+    display: flex;
+    flex-direction: column;
+}
+
+.advantage h3 {
+    font-family: Helvetica, sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+}
+
+.advantage p {
+    font-family: Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+}
+
 #submit {
     background-color: rgba(48, 29, 1, 0.8);
     color: white;
     border-radius: 5px;
     box-shadow: 2px 2px 4px black;
     padding: 1rem;
-    font-weight: 300;
     font-family: 'Raleway Dots', cursive;
     font-size: 48px;
+    font-weight: 300;
 }
 
 #submit:hover {
