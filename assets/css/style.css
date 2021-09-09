@@ -1,8 +1,8 @@
 body::before {
     background: white;
     background-image: linear-gradient(
-        rgba(255, 255, 255, 0.7),
-        rgba(255, 255, 255, 0.7)
+        rgba(255, 255, 255, 0.8),
+        rgba(255, 255, 255, 0.8)
     ), url("../images/bernard-hermant-hQ3WZnY3yZ0-unsplash.jpg");
     background-position: center;
     background-repeat: no-repeat;
@@ -59,8 +59,8 @@ nav {
     padding: 1rem;
 }
 
-#new-arrivals-link:hover {
-    background-color: aquamarine;
+#new-arrivals-link:hover, #dairy-free-link:hover {
+    background-color: rgb(243, 188, 243);
     color: black;
     font-weight: bold;
     transition: 0.5s ease-in-out;
@@ -68,13 +68,6 @@ nav {
 
 #all-flavors-link:hover {
     background-color: rgb(176, 255, 176);
-    color: black;
-    font-weight: bold;
-    transition: 0.5s ease-in-out;
-}
-
-#dairy-free-link:hover {
-    background-color: rgb(235, 174, 250);
     color: black;
     font-weight: bold;
     transition: 0.5s ease-in-out;
@@ -93,6 +86,7 @@ h1 {
     width: 100%;
     height: calc(100% - 135px);
     overflow: scroll;
+    margin-bottom: 25rem;
 }
 
 #sprinkle-container {
@@ -205,27 +199,29 @@ h1 {
 }
 
 #content {
-    width: 80vw;
-    height: 70vh;
+    width: 85vw;
+    height: auto;
     background-color: rgb(243, 188, 243);
+    border-radius: 20px;
     position: absolute;
-    left: 10vw;
-    top: 10vh;
-    z-index: 2;
-    border-radius: 25px;
+    left: 7.5vw;
+    top: 7.5vh;
+    z-index: 1;
     padding: 2rem;
+    color: black;
+    box-shadow: 3px 3px 12px rgb(48, 29, 1);
 }
 
 .input-container {
     display: flex;
     flex-direction: column;
-    margin: 2rem auto;
-    width: 75%;
+    margin: 1rem auto;
+    width: 66.666%;
 }
 
 label {
     font-family: Helvetica, Arial, sans-serif;
-    font-size: 28px;
+    font-size: 26px;
     font-weight: 300;
     line-height: 1.2;
     margin-bottom: 1rem;
@@ -246,10 +242,10 @@ input {
 }
 
 #submit {
-    background-color: rgba(48, 29, 1, 0.7);
+    background-color: rgba(48, 29, 1, 0.8);
     color: white;
     border-radius: 5px;
-    border: 1px solid darkgray;
+    box-shadow: 2px 2px 4px black;
     padding: 1rem;
     font-weight: 300;
     font-family: 'Raleway Dots', cursive;
@@ -268,10 +264,34 @@ input {
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
-    height: 200px;
-    top: 100vh;
+    height: 150px;
+    bottom: 0;
+    position: fixed;
     left: 0;
     margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 2;
+}
+
+#footer-container {
+    border-radius: 10px;
+    height: 60%;
+    text-align: center;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 300;
+    font-size: 24px;
+    background-color: rgb(48, 29, 1);
+}
+
+footer p {
+    font-family: 'Raleway Dots', cursive;
+    font-size: 32px;
+    color: white;
 }
 
 @media screen and (max-width: 1040px) {
