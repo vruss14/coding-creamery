@@ -396,7 +396,6 @@ footer p {
     #header {
         flex-direction: column;
         justify-content: center;
-        padding: 2rem;
     }
 
     .header-content {
@@ -405,7 +404,6 @@ footer p {
 
     #logo-heading {
         margin-top: 0.5rem;
-        margin-bottom: 2rem;
     }
 
     #nav-wrapper {
@@ -415,25 +413,41 @@ footer p {
         align-items: center;
         padding: 0.5rem;
         justify-content: center;
-        margin: 5rem auto;
+        margin: 1rem auto;
     }
 
     #nav-list {
-        flex-direction: column;
-        text-align: center;
+        flex-wrap: wrap;
     }
 
-    #nav-list li {
-        margin: 1.5rem;
+    h1 {
+        font-size: 32px;
+    }
+
+    .nav-link {
+        font-size: 16px;
     }
 
     #main {
         position: fixed;
-        top: 480px;
+        top: 270px;
         left: 0;
         width: 100%;
-        height: calc(100% - 480px);
+        height: calc(100% - 270px);
         overflow: scroll;
+    }
+
+    .advantage {
+        width: 100%;
+    }
+
+    #video-title {
+        padding: 0;
+    }
+
+    #video iframe {
+        width: auto;
+        height: 100%;
     }
     
 }
@@ -449,10 +463,10 @@ footer p {
 
     #main {
         position: fixed;
-        top: 455px;
+        top: 262px;
         left: 0;
         width: 100%;
-        height: calc(100% - 455px);
+        height: calc(100% - 262px);
         overflow: scroll;
     }
     
