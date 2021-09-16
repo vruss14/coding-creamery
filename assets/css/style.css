@@ -348,6 +348,11 @@ input {
     padding: 1rem 0;
 }
 
+.square:hover {
+    transform: scale(1.1);
+    transition: 0.5s ease-in-out;
+}
+
 .flavor-title {
     padding: 1rem 1rem 1.5rem 1rem;
     font-weight: bold;
@@ -363,6 +368,15 @@ input {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
+}
+
+#dairy-free-content {
+    font-size: 20px;
+    font-weight: 300;
+    text-align: left;
+    text-indent: 40px;
+    margin: 2rem 0;
+    line-height: 1.25;
 }
 
 #footer {
