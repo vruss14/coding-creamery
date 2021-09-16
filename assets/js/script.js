@@ -7,22 +7,8 @@ function createSprinkles() {
 
     // Number of sprinkles (loop iterations) dependent on viewport width
 
-    if (window.innerWidth > 1024) {
-        for(let i=0; i<1100; i++) {
-
-            let sprinkle = document.createElement("div");
-            sprinkle.classList.add("sprinkle");
-    
-            let colorClass = color[Math.floor(Math.random() * color.length)];
-            sprinkle.classList.add(`${colorClass}`);
-    
-            let rotationClass = rotation[Math.floor(Math.random() * rotation.length)];
-            sprinkle.classList.add(`${rotationClass}`);
-    
-            container.appendChild(sprinkle);
-        }
-    } else if(window.innerWidth > 768) {
-        for(let i=0; i<1430; i++) {
+    if (window.innerWidth > 768) {
+        for(let i=0; i<1500; i++) {
 
             let sprinkle = document.createElement("div");
             sprinkle.classList.add("sprinkle");
@@ -36,7 +22,7 @@ function createSprinkles() {
             container.appendChild(sprinkle);
         }
     } else {
-        for(let i=0; i<800; i++) {
+        for(let i=0; i<850; i++) {
 
             let sprinkle = document.createElement("div");
             sprinkle.classList.add("sprinkle");

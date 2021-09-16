@@ -90,7 +90,6 @@ h1 {
     width: 100%;
     height: calc(100% - 115px);
     overflow: scroll;
-    margin-bottom: 25rem;
 }
 
 #sprinkle-container {
@@ -340,7 +339,7 @@ input {
     align-items: center;
     flex-direction: column;
     width: 300px;
-    height: 300px;
+    height: auto;
     background-color: rgb(255, 242, 242);
     margin: 3rem;
     border-radius: 8px;
@@ -480,7 +479,20 @@ footer p {
     }
 
     .nav-link {
-        font-size: 14px;
+        font-size: 12px;
+        padding: 0;
+    }
+
+    #content {
+        padding: 10px;
+    }
+
+    label, #video-title {
+        font-size: 16px;
+    }
+
+    #submit {
+        font-size: 16px;
     }
 
     #main {
@@ -490,6 +502,10 @@ footer p {
         width: 100%;
         height: calc(100% - 262px);
         overflow: scroll;
+    }
+
+    #dairy-free-content {
+        margin: 2rem 1rem;
     }
     
 }
