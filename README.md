@@ -34,11 +34,11 @@ This project is a mock landing page and is not intended to copy the ideas and/or
 
 Below is a screenshot of the desktop version of the deployed page:
 
-![screenshot of webpage for desktop]()
+![screenshot of webpage for desktop](assets/images/coding-creamery-desktop.png)
 
 Below is a screenshot of the deployed page on mobile:
 
-![screenshot of webpage for mobile]()
+![screenshot of webpage for mobile](assets/images/coding-creamery-mobile.png)
 
 ## Credits
 
